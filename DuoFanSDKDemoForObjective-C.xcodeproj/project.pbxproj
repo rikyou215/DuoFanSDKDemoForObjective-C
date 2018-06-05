@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0178C57620C673F60006B5CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0178C57520C673F60006B5CE /* AppDelegate.m */; };
+		0178C57920C673F60006B5CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0178C57820C673F60006B5CE /* ViewController.m */; };
+		0178C57C20C673F60006B5CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0178C57A20C673F60006B5CE /* Main.storyboard */; };
+		0178C57E20C673F60006B5CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0178C57D20C673F60006B5CE /* Assets.xcassets */; };
+		0178C58120C673F60006B5CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0178C57F20C673F60006B5CE /* LaunchScreen.storyboard */; };
+		0178C58420C673F60006B5CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0178C58320C673F60006B5CE /* main.m */; };
+		4CF72871ED38AF4484F2299E /* Pods_DuoFanSDKDemoForObjective_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 315518679E77358B16C5B752 /* Pods_DuoFanSDKDemoForObjective_C.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0178C57120C673F60006B5CE /* DuoFanSDKDemoForObjective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DuoFanSDKDemoForObjective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0178C57420C673F60006B5CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0178C57520C673F60006B5CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0178C57720C673F60006B5CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0178C57820C673F60006B5CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0178C57B20C673F60006B5CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0178C57D20C673F60006B5CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0178C58020C673F60006B5CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0178C58220C673F60006B5CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0178C58320C673F60006B5CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EBA44EDAF0DDE0B84D2B0F9 /* Pods-DuoFanSDKDemoForObjective-C.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuoFanSDKDemoForObjective-C.release.xcconfig"; path = "Pods/Target Support Files/Pods-DuoFanSDKDemoForObjective-C/Pods-DuoFanSDKDemoForObjective-C.release.xcconfig"; sourceTree = "<group>"; };
+		315518679E77358B16C5B752 /* Pods_DuoFanSDKDemoForObjective_C.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuoFanSDKDemoForObjective_C.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FF7AFA4CC792511F659ED9 /* Pods-DuoFanSDKDemoForObjective-C.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuoFanSDKDemoForObjective-C.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DuoFanSDKDemoForObjective-C/Pods-DuoFanSDKDemoForObjective-C.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0178C56E20C673F60006B5CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF72871ED38AF4484F2299E /* Pods_DuoFanSDKDemoForObjective_C.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0178C56820C673F60006B5CE = {
+			isa = PBXGroup;
+			children = (
+				0178C57320C673F60006B5CE /* DuoFanSDKDemoForObjective-C */,
+				0178C57220C673F60006B5CE /* Products */,
+				1AB1C2B1F08D3D75E07A58AF /* Pods */,
+				0383C981A5DE3352515711E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0178C57220C673F60006B5CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0178C57120C673F60006B5CE /* DuoFanSDKDemoForObjective-C.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0178C57320C673F60006B5CE /* DuoFanSDKDemoForObjective-C */ = {
+			isa = PBXGroup;
+			children = (
+				0178C57420C673F60006B5CE /* AppDelegate.h */,
+				0178C57520C673F60006B5CE /* AppDelegate.m */,
+				0178C57720C673F60006B5CE /* ViewController.h */,
+				0178C57820C673F60006B5CE /* ViewController.m */,
+				0178C57A20C673F60006B5CE /* Main.storyboard */,
+				0178C57D20C673F60006B5CE /* Assets.xcassets */,
+				0178C57F20C673F60006B5CE /* LaunchScreen.storyboard */,
+				0178C58220C673F60006B5CE /* Info.plist */,
+				0178C58320C673F60006B5CE /* main.m */,
+			);
+			path = "DuoFanSDKDemoForObjective-C";
+			sourceTree = "<group>";
+		};
+		0383C981A5DE3352515711E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				315518679E77358B16C5B752 /* Pods_DuoFanSDKDemoForObjective_C.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AB1C2B1F08D3D75E07A58AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2FF7AFA4CC792511F659ED9 /* Pods-DuoFanSDKDemoForObjective-C.debug.xcconfig */,
+				1EBA44EDAF0DDE0B84D2B0F9 /* Pods-DuoFanSDKDemoForObjective-C.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0178C57020C673F60006B5CE /* DuoFanSDKDemoForObjective-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0178C58720C673F60006B5CE /* Build configuration list for PBXNativeTarget "DuoFanSDKDemoForObjective-C" */;
+			buildPhases = (
+				770C982395BCB0E7634D0E90 /* [CP] Check Pods Manifest.lock */,
+				0178C56D20C673F60006B5CE /* Sources */,
+				0178C56E20C673F60006B5CE /* Frameworks */,
+				0178C56F20C673F60006B5CE /* Resources */,
+				A257862E564B271623C41325 /* [CP] Embed Pods Frameworks */,
+				0F12480F8E04A400F4FE561A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DuoFanSDKDemoForObjective-C";
+			productName = "DuoFanSDKDemoForObjective-C";
+			productReference = 0178C57120C673F60006B5CE /* DuoFanSDKDemoForObjective-C.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0178C56920C673F60006B5CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = DF;
+				TargetAttributes = {
+					0178C57020C673F60006B5CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0178C56C20C673F60006B5CE /* Build configuration list for PBXProject "DuoFanSDKDemoForObjective-C" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0178C56820C673F60006B5CE;
+			productRefGroup = 0178C57220C673F60006B5CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0178C57020C673F60006B5CE /* DuoFanSDKDemoForObjective-C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0178C56F20C673F60006B5CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0178C58120C673F60006B5CE /* LaunchScreen.storyboard in Resources */,
+				0178C57E20C673F60006B5CE /* Assets.xcassets in Resources */,
+				0178C57C20C673F60006B5CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F12480F8E04A400F4FE561A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DuoFanSDKDemoForObjective-C/Pods-DuoFanSDKDemoForObjective-C-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		770C982395BCB0E7634D0E90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A257862E564B271623C41325 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DuoFanSDKDemoForObjective-C/Pods-DuoFanSDKDemoForObjective-C-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0178C56D20C673F60006B5CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0178C57920C673F60006B5CE /* ViewController.m in Sources */,
+				0178C58420C673F60006B5CE /* main.m in Sources */,
+				0178C57620C673F60006B5CE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0178C57A20C673F60006B5CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0178C57B20C673F60006B5CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0178C57F20C673F60006B5CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0178C58020C673F60006B5CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0178C58520C673F60006B5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0178C58620C673F60006B5CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0178C58820C673F60006B5CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2FF7AFA4CC792511F659ED9 /* Pods-DuoFanSDKDemoForObjective-C.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K296D4K5Z7;
+				INFOPLIST_FILE = "DuoFanSDKDemoForObjective-C/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.df.mobileads.DuoFanSDKDemoForObjective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0178C58920C673F60006B5CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EBA44EDAF0DDE0B84D2B0F9 /* Pods-DuoFanSDKDemoForObjective-C.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K296D4K5Z7;
+				INFOPLIST_FILE = "DuoFanSDKDemoForObjective-C/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.df.mobileads.DuoFanSDKDemoForObjective-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0178C56C20C673F60006B5CE /* Build configuration list for PBXProject "DuoFanSDKDemoForObjective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0178C58520C673F60006B5CE /* Debug */,
+				0178C58620C673F60006B5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0178C58720C673F60006B5CE /* Build configuration list for PBXNativeTarget "DuoFanSDKDemoForObjective-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0178C58820C673F60006B5CE /* Debug */,
+				0178C58920C673F60006B5CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0178C56920C673F60006B5CE /* Project object */;
+}
